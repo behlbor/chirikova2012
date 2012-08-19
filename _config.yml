@@ -2,7 +2,6 @@ auto: true
 server: true
 pygments: true
 permalink: none
-root_dir: ""
 baseurl: "http://behlbor.github.com/chirikova2012"
 oauth_client_id: caf55c20366465a1332d
 gatekeeper_url: http://poole-oauth-staging.herokuapp.com
