@@ -9,3 +9,17 @@ gatekeeper_url: http://poole-oauth-staging.herokuapp.com
 exclude:
 - .gitignore
 - README.md
+
+prose:
+  rooturl: "_posts"
+  metadata:
+    _posts/news: |
+      published: true
+      layout: news
+      title: Your Post Title
+      abstract: Short summary of your article.
+      author_twitter: @chirikova
+      author: Evgenia Chirikova
+	  image:
+      categories:
+      - news
