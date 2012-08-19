@@ -6,7 +6,7 @@ layout: default
   <h1>Help</h1>
 
   <div class='articles'>
-    {% for item in site.categories.articles limit:40 offset:0 %}
+    {% for item in site.categories.news limit:40 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
         {% if item.image %}
           <img src="{{item.image}}" width="200" height="100"/>
