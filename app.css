@@ -1170,3 +1170,8 @@ label.error {
  color: #333;	
  background-color: #fff;
 }
+.cont{
+	width:450;
+	padding:15px;
+	background-color:#CF9;
+}
