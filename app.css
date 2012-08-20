@@ -1132,6 +1132,7 @@ label.error {
   
 #logo{
 	float:left;
+	background:url(images/logo.png) no-repeat;
 }
 #slogan{
 	font-style:italic;
