@@ -10,15 +10,17 @@
   <link rel='stylesheet' href='{{site.baseurl}}/app.css'>
 </head>
 <body>
-  <div id="header">
-        <div id="logo">
-            <img src="images/logo.png" />
-        </div>
-        <div id="slogan">Официальный сайт Евгении Чириковой</div>
-        <div id="menu">menu</div>
-  </div>
   <div id='container'>
-    <div id='main'>{{content}}</div>
+    <div id='main'>
+      <div id="header">
+            <div id="logo">
+                <img src="images/logo.png" />
+            </div>
+            <div id="slogan">Официальный сайт Евгении Чириковой</div>
+            <div id="menu">menu</div>
+      </div>
+      {{content}}
+    </div>
   </div>
 
   <div id='footer'>
