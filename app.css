@@ -1171,7 +1171,9 @@ label.error {
  background-color: #fff;
 }
 .cont{
-	width:450;
+	width:450px;
 	padding:15px;
 	background-color:#CF9;
+	float:left;
+	margin-right:30px;
 }
