@@ -1176,4 +1176,14 @@ label.error {
 	background-color:#CF9;
 	float:left;
 	margin-right:30px;
+	margin-up:30px;
+}
+.noMargin{
+	margin-right:0px;
+}
+.contUp{
+	height:345px;
+}
+.contDown{
+	height:400px;
 }
