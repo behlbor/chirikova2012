@@ -4,6 +4,6 @@ published: true
 permalink: bio
 ---
 
-# Кто же такая Чирикова?
+# How does it work?
 
-Одно знаю точно - не мэр Химок.
+Enter Text in Markdown format.
