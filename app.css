@@ -1125,3 +1125,17 @@ label.error {
     right: 0;
     }
   }
+  
+  
+  
+  
+  
+#logo{
+	float:left;
+}
+#slogan{
+	font-style:italic;
+}
+#menu{
+	font-weight:bold;
+}
