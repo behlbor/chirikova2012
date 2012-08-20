@@ -1133,6 +1133,7 @@ label.error {
 #logocont{
 	float:left;
 	width:500px;
+	height:100px;
 }
 #logo{
 	background:url(images/logo.png) no-repeat;
