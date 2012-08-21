@@ -1173,7 +1173,7 @@ label.error {
 .cont{
 	width:450px;
 	padding:15px;
-	background-color:#CF9;
+	background-color:#f0f0f0;
 	float:left;
 	margin-right:30px;
 	margin-top:30px;
@@ -1186,4 +1186,8 @@ label.error {
 }
 .contDown{
 	height:400px;
+}
+#bio{
+	float:left;
+	margin-right:30px;	
 }
