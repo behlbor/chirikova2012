@@ -1195,10 +1195,14 @@ label.error {
 	float:left;
 	margin-right:30px;
 }
-.cont .date{
-	color:#00C000;
-	font-weight:bold;
-	font-size:14px;
+.cont .date {
+    color: #00C000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.cont .article:hover .date {
+    color: #003300;
 }
 .cont .descr{
 	font-size:12px;
