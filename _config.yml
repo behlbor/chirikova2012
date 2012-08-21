@@ -20,7 +20,6 @@ prose:
       descr: Short summary of your article.
       author_twitter: @chirikova
       author: Evgenia Chirikova
-	  time: site.time
       image:
       categories:
       - news

@@ -19,7 +19,7 @@ layout: default
           {{item.descr}}
         </div>
          <div class="time">
-          {{item.time}}
+          {{ item.date | date: "%B %d, %Y" }}
         </div>
       </a>
     {% endfor %}
