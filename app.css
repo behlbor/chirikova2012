@@ -1157,11 +1157,11 @@ label.error {
     width: 150px;
 	border-bottom:none;
 }
-#menu a:active {
- color: #444;
-}
 #menu a:hover {
 	text-decoration:underline;
+}
+#menu a:active {
+ color: #444;
 }
 .cont{
 	width:450px;
