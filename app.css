@@ -1190,3 +1190,7 @@ label.error {
 	float:left;
 	margin-right:30px;
 }
+.cont .date{
+	color:#00C000;
+	font-weight:bold;
+}
