@@ -1181,7 +1181,7 @@ label.error {
 	height:400px;
 }
 .tw{
-	margin-bottom:30px;
+	
 }
 .photo{
 }
@@ -1198,4 +1198,14 @@ label.error {
 .cont .date{
 	color:#00C000;
 	font-weight:bold;
+	font-size:14px;
+}
+.cont .descr{
+	font-size:12px;
+}
+.cont .article{
+	margin-top:10px
+}
+.cont h2{
+	margin-bottom:5px;
 }
