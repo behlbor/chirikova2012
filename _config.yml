@@ -17,9 +17,10 @@ prose:
       published: true
       layout: news
       title: Your Post Title
-      abstract: Short summary of your article.
+      descr: Short summary of your article.
       author_twitter: @chirikova
       author: Evgenia Chirikova
+	  time: site.time
       image:
       categories:
       - news
