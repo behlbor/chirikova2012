@@ -10,10 +10,11 @@ layout: default
     <div id="bio"><b>Евгения Сергеевна Чирикова</b> (12 ноября 1976, Москва, СССР) — российский политик, лидер движения «Экологическая оборона Московской области» («Экооборона») и «Движения в защиту Химкинского леса», член оргкомитета Стратегия-31, предприниматель, совладелец компаний ООО «ЭЗОП» («Электроэнергетика и защита от помех») и ООО «Элнар-Сервис»</div>
 </div>
 <div class="cont contDown">
+	<h2>Новости</h2>
 	 {% for item in site.categories.news limit:40 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
         <div class="date">
-           {{ item.date | date: "%I:%M:%S }}
+           {{ item.date | date: "%I:%M:%S %B %d, %Y" }}
         </div>
         <div class="descr">
           {{item.descr}}
@@ -21,7 +22,7 @@ layout: default
       </a>
     {% endfor %}
 </div>
-<div class="cont noMargin contDown">
+<div class="cont noMargin tw">
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
@@ -52,6 +53,10 @@ new TWTR.Widget({
   }
 }).render().start();
 </script></div>
+
+<div class="cont noMargin photo">
+	<h2>Фотогалерея</h2>
+</div>
 
 <div class="help">
   <h1>Чирикову - Химчанам!</h1>
