@@ -949,8 +949,7 @@ ul.site li a {
   border-top: 1px solid #C3CCD0;
 }
 
-.post-content a {
-  border-bottom: 1px dashed #C3CCD0;}
+.post-content a {}
 
 .post-content p {
   margin-bottom: 20px;
@@ -1156,6 +1155,7 @@ label.error {
     padding: 9px 0 0;
     text-align: left;
     width: 150px;
+	border-bottom:none;
 }
 #menu a:active {
  color: #444;
