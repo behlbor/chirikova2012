@@ -12,8 +12,8 @@ layout: default
 <div class="cont contDown">
 	 {% for item in site.categories.news limit:40 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
-        <div class="title">
-          {{item.title}}
+        <div class="date">
+           {{ item.date | date: "%B %d, %Y" }}
         </div>
         <div class="descr">
           {{item.descr}}
