@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bio
 permalink: bio
 published: true
 ---
