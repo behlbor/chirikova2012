@@ -47,8 +47,7 @@ html {
   Typography
 ---------------------------------------------*/
 html,body {
-  color: #7A8387;
-  background: #e7eef2;
+  color: #444444;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
@@ -56,7 +55,7 @@ html,body {
 
 body,
 textarea,
-input { font: 13px/20px 'OpenSans', sans-serif; }
+input { font: 13px/20px Helvetica, Arial, sans-serif; }
 
 body{
 	background:url("images/les.png") repeat-X fixed 0% 100% #96bb96;
@@ -160,7 +159,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 #start .splash {
   text-align: center;
   background: #E0E7EB;
-  font-family: 'OpenSans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.3em;
@@ -194,7 +193,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  font-family:'OpenSans', sans-serif; 
+  font-family:Helvetica, Arial, sans-serif; 
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
@@ -211,7 +210,7 @@ body.start {
 }
 
 #start .owner {
-  font-family: 'OpenSans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -232,7 +231,7 @@ body.start {
 }
 
 .repos > a {
-  font-family: 'OpenSans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   overflow: hidden;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1);
 
@@ -471,7 +470,7 @@ ul.site li a {
   margin: auto;
   font-size: 12px;
   text-align: center;
-  font-family: 'OpenSans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   overflow: hidden;
   word-wrap: break-word;
   color: #526066;
@@ -897,7 +896,7 @@ ul.site li a {
 .post-content {
   background: #fff;
   padding: 30px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5em;
@@ -1190,7 +1189,8 @@ label.error {
 #bio{
 	float:left;
 	width:195px;
-	font-size:10px;
+	font-size:12px;
+	line-height:20px;
 }
 #zhenya{
 	float:left;
