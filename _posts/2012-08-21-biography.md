@@ -1,6 +1,5 @@
 ---
 layout: bio
-permalink: bio
 published: true
 ---
 
