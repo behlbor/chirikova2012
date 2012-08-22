@@ -1194,10 +1194,6 @@ label.error {
 	float:left;
 	margin-right:30px;
 }
-.cont .descr a{
-	font-size:12px;
-	line-height:20px;
-}
 .cont .date {
     color: #B7BD34;
     font-weight: bold;
@@ -1211,6 +1207,8 @@ label.error {
 }
 .cont .article{
 	margin-top:10px
+	font-size:12px;
+	line-height:20px;
 }
 .cont h2{
 	margin-bottom:5px;
