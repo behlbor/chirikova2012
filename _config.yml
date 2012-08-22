@@ -1,7 +1,7 @@
 auto: true
 server: true
 pygments: true
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:hour/:title/
 root_dir: "http://behlbor.github.com/chirikova2012"
 baseurl: "http://behlbor.github.com/chirikova2012"
 oauth_client_id: caf55c20366465a1332d
