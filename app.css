@@ -1140,6 +1140,7 @@ label.error {
     font-family:Calibri, Arial, Helvetica, sans-serif;
     font-style: italic;
     margin-left: 23px;
+	line-height:12px;
 }
 #menu {
  font-size: 12px;
