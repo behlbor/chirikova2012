@@ -1223,6 +1223,14 @@ label.error {
 }
 #biolink{
 	position:absolute;
-	bottom:0px;
+	bottom:6px;
 	right:0px;
+}
+#biolink a{
+	color: #B7BD34;
+    font-size: 12px;
+    padding: 15px;
+}
+#biolink a:hover{
+	text-decoration:underline;
 }
