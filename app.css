@@ -1180,7 +1180,6 @@ label.error {
 .contUp{
 }
 .contDown{
-	height:400px;
 }
 .tw{
 	
@@ -1220,4 +1219,7 @@ label.error {
 .cont a:hover h2{
 	text-decoration:underline;
 	color:#030
+}
+#biolink{
+	float:right;
 }
