@@ -1234,3 +1234,7 @@ label.error {
 #biolink a:hover{
 	text-decoration:underline;
 }
+.large-cont{
+	padding:15px;
+	background-color:#f0f0f0;
+}
