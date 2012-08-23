@@ -1179,6 +1179,7 @@ label.error {
 }
 .contUp{
 	position:relative;
+	height: 345px;
 }
 .contDown{
 }
@@ -1189,7 +1190,7 @@ label.error {
 }
 #bio{
 	float:left;
-	width:195px;
+	width:202px;
 	font-size:12px;
 	line-height:20px;
 }
