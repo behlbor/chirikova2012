@@ -1239,4 +1239,5 @@ label.error {
 }
 #numers .num{
 	margin-left:30px;
+	float: right;
 }
