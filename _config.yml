@@ -2,8 +2,8 @@ auto: true
 server: true
 pygments: true
 permalink: /:categories/:year/:month/:day/:title/
-root_dir: "http://behlbor.github.com/chirikova2012"
-baseurl: "http://behlbor.github.com/chirikova2012"
+root_dir: "http://echirikova.ru"
+baseurl: "http://echirikova.ru"
 oauth_client_id: caf55c20366465a1332d
 gatekeeper_url: http://poole-oauth-staging.herokuapp.com
 exclude:
