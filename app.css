@@ -1236,8 +1236,12 @@ label.error {
 }
 #numers{
 	float:right;
+	margin-top:10px;
 }
 #numers .num{
 	margin-left:30px;
 	float: right;
+}
+#numers .num:last-child {
+	margin-top: -3px;
 }
