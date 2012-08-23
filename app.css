@@ -1178,6 +1178,7 @@ label.error {
 	margin-right:0px;
 }
 .contUp{
+	position:relative;
 }
 .contDown{
 }
@@ -1221,5 +1222,7 @@ label.error {
 	color:#030
 }
 #biolink{
-	float:right;
+	position:absolute;
+	bottom:0px;
+	right:0px;
 }
