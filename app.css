@@ -908,10 +908,8 @@ ul.site li a {
 .post-content h1 { font-size: 28px; margin-bottom: 24px;}
 .post-content h2 { font-size: 20px; margin-bottom: 15px;}
 .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
-  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
-  }
+}
 
 .post-content blockquote {
   padding-left: 19px;
@@ -1249,11 +1247,19 @@ label.error {
 	margin-top: -3px;
 }
 #soc{
+	margin-bottom: 5px;
 }
 #soc img {
     display: table-cell;
-    margin-top: -3px;
+    margin-right: 3px;
+    margin-top: -6px;
     vertical-align: middle;
 }
 .tw h2{
+}
+h4 a{
+	color:E2E4B8;
+}
+h4 a:hover{
+	text-decoration:underline
 }
