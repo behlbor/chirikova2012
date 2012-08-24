@@ -1,0 +1,14 @@
+---
+published: true
+layout: news
+title: Иду в мэры
+descr: В понедельник Чирикова подаст документы в избирательную комиссию
+time: 18:30
+categories:
+- news
+---
+
+Евгения Чирикова после просмотра "классико" заявила о своем желании балотироваться в мэры Химок.
+
+Она подаст заявление в участковую комиссию Московской области в понедельник.
+<iframe width="560" height="315" src="http://www.youtube.com/embed/RHeB0YwtBaI" frameborder="0" allowfullscreen></iframe>
