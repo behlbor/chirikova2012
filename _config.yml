@@ -16,9 +16,8 @@ prose:
     _posts/news: |
       published: true
       layout: news
-      descr: Short summary of your article.
-      author_twitter: @chirikova
-      author: Evgenia Chirikova
-      image:
+	  title: Your Post Title
+      descr: Short summary of your news
+	  time: Local time, e.g. 18:30
       categories:
       - news
