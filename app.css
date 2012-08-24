@@ -906,7 +906,7 @@ ul.site li a {
   }
 
 .post-content h1 { font-size: 28px; margin-bottom: 24px;}
-.post-content h2 { font-size: 20px; margin-bottom: 20px;}
+.post-content h2 { font-size: 20px; margin-bottom: 15px;}
 .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
   font-size: 18px;
   font-weight: bold;
@@ -1210,8 +1210,10 @@ label.error {
 	font-size:12px;
 	line-height:20px;
 }
+.cont .article:first-child{
+	margin-top:0px;
+}
 .cont h2{
-	margin-bottom:5px;
 	color:#444;
 }
 .cont a:hover h2{
@@ -1248,7 +1250,11 @@ label.error {
 }
 #soc{
 	float:right;
+	margin-top:3px;
 }
 #soc img{
 	margin-left:15px;
+}
+.tw h2{
+	display:inline;
 }
