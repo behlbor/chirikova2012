@@ -1249,12 +1249,11 @@ label.error {
 	margin-top: -3px;
 }
 #soc{
-	float:right;
-	margin-top:3px;
 }
-#soc img{
-	margin-left:15px;
+#soc img {
+    display: table-cell;
+    margin-top: -3px;
+    vertical-align: middle;
 }
 .tw h2{
-	display:inline;
 }
