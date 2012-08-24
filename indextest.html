@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div style="clear:both;"></div>
+<div class="cont contUp">
+	<iframe width="420" height="360" frameborder="0" allowfullscreen="true" src="http://www.youtube.com/embed/YSZp8aLl13g"></iframe>
+</div>
+<div class="cont noMargin contUp">
+	<img src="images/zhenya.jpg" id="zhenya" alt="Евгения Чирикова">
+    <div id="bio"><b>Чирикова Евгения Сергеевна</b> — российский политик, экономист, лидер «Движения в защиту Химкинского леса». Окончила два факультета МАИ — инженерный, по специальности «двигатели летательных аппаратов», и&nbsp;экономический, а также Академию народного хозяйства при правительстве РФ, получив степень магистра делового администрирования. Работала в&nbsp;крупных компаниях, создавая среду управления бизнесом. С&nbsp;защиты Химкинского леса от вырубки началась ее общественная деятельность.</div>
+    <div id="biolink"><a href="/bio.html">Подробнее</a></div>
+</div>
+<div class="cont contDown">
+	<a href="/allnews.html"><h2>Новости</h2></a>
+	 {% for item in site.categories.news limit:40 offset:0 %}
+      <a class="article" href="{{site.root_dir}}{{item.url}}">
+        <div class="date">
+           {{ item.date | date: "%I:%M:%S %B %d, %Y" }}
+        </div>
+        <div class="descr">
+          {{item.descr}}
+        </div>
+      </a>
+    {% endfor %}
+</div>
+<div class="cont noMargin tw">
+<h2>Чирикова в сети</h2>
+<div id="soc">
+	<a href="https://twitter.com/4irikova"><img src="/images/twitter.png" alt="twitter"></a>
+	<a href="http://jenya-khimles.livejournal.com/"><img src="/images/livejournal.png" alt="twitter"></a>
+	<a href="http://www.facebook.com/4irikova"><img src="/images/facebook.png" alt="twitter"></a>
+</div>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'радуга',
+  interval: 30000,
+  title: '',
+  subject: '#Чирикова2012',
+  width: 420,
+  height: 180,
+  theme: {
+    shell: {
+      background: '#E2E4B8',
+      color: '#444444'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#B7BD34'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script></div>
+
+<div class="cont noMargin photo">
+	<a href="/chirikova2012/photo"><h2>Фотогалерея</h2></a>
+</div>
+
+<div style="clear:both;"></div>
+

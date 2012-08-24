@@ -1246,3 +1246,9 @@ label.error {
 #numers .num:first-child {
 	margin-top: -3px;
 }
+#soc{
+	float:right;
+}
+#soc img{
+	margin-left:15px;
+}
