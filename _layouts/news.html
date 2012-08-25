@@ -4,8 +4,8 @@ layout: default
 
   <div style="clear:both;"></div>
 <div class="cont">
+  <div class="date">{{ page.date | date: "%d.%m.%Y" }} | {{page.time}}</div>
   <h2>{{page.title}}</h2>
-  <div class="date">{{ page.date | date: "%d.%m.%Y" }} ({{page.time}})</div>
  {{ content }}
 </div>
 <div class="cont noMargin">
