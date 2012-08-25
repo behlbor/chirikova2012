@@ -1182,6 +1182,7 @@ label.error {
 	
 }
 .photo{
+	float:right;
 }
 #bio{
 	float:left;
