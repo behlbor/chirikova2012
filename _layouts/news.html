@@ -3,7 +3,14 @@ layout: default
 ---
 
 
-  <div class="title">{{page.title}}</div>
-  
   {{ content }}
-  <div class="meta"> Posted by Michael on {{ page.date | date: "%B %d, %Y" }} </div>
+  <div class="date"> {{item.time}} {{item.title}} </div>
+  <div style="clear:both;"></div>
+<div class="cont">
+  <h1>{{page.title}}</h1>
+ {{ content }}
+</div>
+<div class="cont noMargin">
+
+</div>
+<div style="clear:both;"></div>
