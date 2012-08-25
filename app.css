@@ -1198,6 +1198,14 @@ label.error {
     font-weight: bold;
     margin-top: 15px;
 }
+.cont .date2 {
+    color: #A8A83B;
+    font-weight: bold;
+}
+.cont .newstitle {
+    color: #A8A83B;
+    font-weight: bold;
+}
 .cont .article:hover .date {
     color: #003300;
 }
