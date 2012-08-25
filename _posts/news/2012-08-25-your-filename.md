@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: news
 title: Your Post Title
 descr: Short summary of your news
