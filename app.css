@@ -909,6 +909,7 @@ ul.site li a {
 .post-content h2 { font-size: 20px; margin-bottom: 15px;}
 .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .post-content blockquote {
@@ -1200,7 +1201,8 @@ label.error {
 }
 .cont .date2 {
     color: #A8A83B;
-    font-weight: bold;
+    font-weight: bold;   
+	margin-bottom: 10px;
 }
 .cont .newstitle {
     color: #A8A83B;
