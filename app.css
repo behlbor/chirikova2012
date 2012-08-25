@@ -1274,3 +1274,13 @@ h4 a:hover{
 	color:#B7BD34;
 	text-decoration:underline
 }
+.news-post img{
+	max-width:420px;
+}
+.news-post a{
+	color:#B7BD34;
+}
+.news-post a:hover{
+	color:#B7BD34;
+	text-decoration:underline;
+}
