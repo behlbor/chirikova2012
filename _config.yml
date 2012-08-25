@@ -16,8 +16,8 @@ prose:
     _posts/news: |
       published: true
       layout: news
-	  title: Your Post Title
+      title: Your Post Title
       descr: Short summary of your news
-	  time: Local time, e.g. 18:30
+      time: Local time, e.g. 18:30
       categories:
       - news
