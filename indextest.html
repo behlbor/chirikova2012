@@ -15,7 +15,7 @@ layout: default
 	 {% for item in site.categories.news limit:40 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
         <div class="date">
-            {{item.time}} {{ item.date | date: "%d.%m.%Y" }} {{item.title}}
+            {{ item.date | date: "%d.%m.%Y" }} ({{item.time}}). {{item.title}}
         </div>
         <div class="descr">
           {{item.descr}}
