@@ -1221,6 +1221,7 @@ label.error {
 }
 .cont .article:hover{
 	background-color:#ffffff;
+	color:#ffffff;
 }
 .cont .article:first-child{
 	margin-top:0px;
