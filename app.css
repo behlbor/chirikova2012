@@ -1197,7 +1197,6 @@ label.error {
 }
 .cont .date {
     font-weight: bold;
-    margin-top: 15px;
 }
 .cont .date2 {
     color: #A8A83B;
@@ -1213,7 +1212,7 @@ label.error {
 	padding:8px 15px 7px 15px;
 }
 .cont .newsteaser .teaser:last-child{
-	margin-bottom:8px;
+	padding-bottom:15px;
 }
 .cont .newsteaser:hover .teaser {
 	background-color:#ffffff;
@@ -1228,7 +1227,6 @@ label.error {
     margin-left: 15px;
 }
 .cont .newsteaser{
-	margin-top:10px;
 	font-size:12px;
 	line-height:20px;
 }
