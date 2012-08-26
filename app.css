@@ -1219,6 +1219,9 @@ label.error {
 	font-size:12px;
 	line-height:20px;
 }
+.cont .article:hover{
+	background-color:#ffffff;
+}
 .cont .article:first-child{
 	margin-top:0px;
 }
