@@ -1210,8 +1210,10 @@ label.error {
 }
 .cont .newsteaser .teaser{
     color: #003300;
-	padding-left:15px;
-	padding-right:15px;
+	padding:8px 15px 7px 15px;
+}
+.cont .newsteaser .teaser:last-child{
+	margin-bottom:8px;
 }
 .cont .newsteaser:hover .teaser {
 	background-color:#ffffff;
@@ -1219,9 +1221,11 @@ label.error {
 .contnews{
 	padding-left:0px;
 	padding-right:0px;
+	padding-bottom:0px;
 }
-.contnews .h2{
-	padding-left:15px;
+.contnews h2{
+	margin-bottom: 7px;
+    margin-left: 15px;
 }
 .cont .newsteaser{
 	margin-top:10px;
