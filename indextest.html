@@ -10,18 +10,20 @@ layout: default
     <div id="bio"><b>Чирикова Евгения Сергеевна</b> — российский политик, экономист, лидер «Движения в защиту Химкинского леса». Окончила два факультета МАИ — инженерный, по специальности «двигатели летательных аппаратов», и&nbsp;экономический, а также Академию народного хозяйства при правительстве РФ, получив степень магистра делового администрирования. Работала в&nbsp;крупных компаниях, создавая среду управления бизнесом. С&nbsp;защиты Химкинского леса от вырубки началась ее общественная деятельность.</div>
     <div id="biolink"><a href="/bio.html">Подробнее</a></div>
 </div>
-<div class="cont contDown">
+<div class="cont contnews contDown">
 	<a href="/allnews.html"><h2>Новости</h2></a>
 	 {% for item in site.categories.news limit:10 offset:0 %}
-      <a class="article" href="{{site.root_dir}}{{item.url}}">
-        <div class="date">
-            {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
-        </div>
-        <div class="newstitle">
-            {{item.title}}
-        </div>
-        <div class="descr">
-          {{item.descr}}
+      <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
+      	<div class="teaser">
+            <div class="date">
+                {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
+            </div>
+            <div class="newstitle">
+                {{item.title}}
+            </div>
+            <div class="descr">
+              {{item.descr}}
+            </div>
         </div>
       </a>
     {% endfor %}
