@@ -3,7 +3,7 @@ layout: default
 ---
 <div style="clear:both;"></div>
 <div class="cont contUp">
-	<iframe width="420" height="360" frameborder="0" allowfullscreen="true" src="http://www.youtube.com/embed/YSZp8aLl13g"></iframe>
+	<iframe width="420" height="360" frameborder="0" allowfullscreen="true" src="http://www.youtube.com/embed/KbjasClif6s"></iframe>
 </div>
 <div class="cont noMargin contUp">
 	<img src="images/zhenya.jpg" id="zhenya" alt="Евгения Чирикова">
@@ -27,6 +27,28 @@ layout: default
         </div>
       </a>
     {% endfor %}
+</div>
+<div class="cont noMargin photo">
+	<a href="/chirikova2012/photo"><h2>Фотогалерея</h2></a>
+    <div id="galleria"></div>
+
+    <!-- load jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <!-- load Galleria -->
+    <script src="js/galleria/galleria-1.2.8.min.js"></script>
+    <!-- load flickr plugin -->
+    <script src="js/galleria/plugins/picasa/galleria.picasa.min.js"></script>
+    <script>
+
+    // Initialize Galleria
+   // Load the classic theme
+    Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+
+    Galleria.run('#galleria', {
+        // The user & album. This example fetches the album "Demo" from the user "galleriajs"
+        picasa: 'useralbum:110587909775190743590/5780953116293161745'
+    });
+    </script>
 </div>
 <div class="cont noMargin tw">
 <h2>Чирикова в сети</h2>
@@ -66,28 +88,6 @@ new TWTR.Widget({
 }).render().start();
 </script></div>
 
-<div class="cont noMargin photo">
-	<a href="/chirikova2012/photo"><h2>Фотогалерея</h2></a>
-    <div id="galleria"></div>
-
-    <!-- load jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <!-- load Galleria -->
-    <script src="js/galleria/galleria-1.2.8.min.js"></script>
-    <!-- load flickr plugin -->
-    <script src="js/galleria/plugins/picasa/galleria.picasa.min.js"></script>
-    <script>
-
-    // Initialize Galleria
-   // Load the classic theme
-    Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
-
-    Galleria.run('#galleria', {
-        // The user & album. This example fetches the album "Demo" from the user "galleriajs"
-        picasa: 'useralbum:110587909775190743590/5780953116293161745'
-    });
-    </script>
-</div>
 
 <div style="clear:both;"></div>
 

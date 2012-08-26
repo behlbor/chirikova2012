@@ -8,18 +8,20 @@ layout: default
   <h2>{{page.title}}</h2>
   <div class="news-post">{{ content }}</div>
 </div>
-<div class="cont noMargin">
-	<a href="/allnews.html"><h2>Все Новости</h2></a>
-	 {% for item in site.categories.news limit:5 offset:0 %}
-      <a class="article" href="{{site.root_dir}}{{item.url}}">
-        <div class="date">
-            {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
-        </div>
-        <div class="newstitle">
-            {{item.title}}
-        </div>
-        <div class="descr">
-          {{item.descr}}
+<div class="cont contnews noMargin">
+	<a href="/allnews.html"><h2>Новости</h2></a>
+	 {% for item in site.categories.news limit:10 offset:0 %}
+      <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
+      	<div class="teaser">
+            <div class="date">
+                {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
+            </div>
+            <div class="newstitle">
+                {{item.title}}
+            </div>
+            <div class="descr">
+              {{item.descr}}
+            </div>
         </div>
       </a>
     {% endfor %}
