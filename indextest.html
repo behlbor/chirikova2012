@@ -12,7 +12,7 @@ layout: default
 </div>
 <div class="cont contDown">
 	<a href="/allnews.html"><h2>Новости</h2></a>
-	 {% for item in site.categories.news limit:40 offset:0 %}
+	 {% for item in site.categories.news limit:10 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
         <div class="date">
             {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
@@ -66,6 +66,23 @@ new TWTR.Widget({
 
 <div class="cont noMargin photo">
 	<a href="/chirikova2012/photo"><h2>Фотогалерея</h2></a>
+    <!-- load jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <!-- load Galleria -->
+    <script src="js/galleria/galleria-1.2.8.min.js"></script>
+    <!-- load flickr plugin -->
+    <script src="js/galleria/plugins/picasa/galleria.flickr.min.js"></script>
+    <script>
+
+    // Initialize Galleria
+   // Load the classic theme
+    Galleria.loadTheme('../../themes/classic/galleria.classic.min.js');
+
+    Galleria.run('#galleria', {
+        // The user & album. This example fetches the album "Demo" from the user "galleriajs"
+        picasa: 'useralbum:galleriajs/Demo'
+    });
+    </script>
 </div>
 
 <div style="clear:both;"></div>

@@ -8,9 +8,9 @@ layout: default
   <h2>{{page.title}}</h2>
   <div class="news-post">{{ content }}</div>
 </div>
-<div class="cont nomargin">
-	<a href="/allnews.html"><h2>Новости</h2></a>
-	 {% for item in site.categories.news limit:40 offset:0 %}
+<div class="cont noMargin">
+	<a href="/allnews.html"><h2>Все Новости</h2></a>
+	 {% for item in site.categories.news limit:5 offset:0 %}
       <a class="article" href="{{site.root_dir}}{{item.url}}">
         <div class="date">
             {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
