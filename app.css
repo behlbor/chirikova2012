@@ -910,6 +910,7 @@ ul.site li a {
 .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
   font-weight: bold;
   margin-bottom: 10px;
+  clear:both;
 }
 
 .post-content blockquote {
@@ -1257,13 +1258,11 @@ label.error {
 	margin-top: -3px;
 }
 #soc{
-	margin-bottom: 5px;
 }
 #soc img {
-    display: table-cell;
-    margin-right: 3px;
-    margin-top: -6px;
-    vertical-align: middle;
+    margin-right: 15px;
+    float: left;
+ 	margin-bottom: 15px;
 }
 .tw h2{
 }
