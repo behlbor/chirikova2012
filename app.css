@@ -1347,3 +1347,6 @@ h4 a:hover{
 #accordion div {
     display: none;
 }
+.addthis_toolbox{
+	float:right;
+}
