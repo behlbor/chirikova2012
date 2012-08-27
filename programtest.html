@@ -162,6 +162,8 @@ layout: default
 	$(document).ready(function() {
 for(var i = 1;i<=10;i++){
 		$("#theme"+i).click(function(){
+			alert("#theme-text"+i);
+			alert($("#theme-text"+i));
 			$("#theme-text"+i).slideToggle("slow");
 		});
 }
