@@ -1192,6 +1192,8 @@ label.error {
 	line-height:20px;
 }
 #bio{
+	position:absolute;
+	top:15px;
 	left:240px;
 	width:195px;
 	line-height:20px;
@@ -1258,7 +1260,13 @@ label.error {
 	bottom:6px;
 	right:0px;
 }
-#biolink a{
+
+#progrlink{
+	position:absolute;
+	bottom:6px;
+	right:240px;
+}
+#biolink a, #progrlink a{
 	color: #A8A83B;
     font-size: 12px;
     padding: 15px;
