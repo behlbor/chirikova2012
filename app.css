@@ -1320,7 +1320,7 @@ h4 a:hover{
 }
 .contfull{
 	width:930px;
-	padding-bottom:0px;
+	padding:30px 30px 15 px 30px;
 }
 #accordion h3 a{
 	color:#A8A83B;
@@ -1330,5 +1330,5 @@ h4 a:hover{
 	text-decoration:underline;
 }
 .contfull div{
-	margin:0px 0px 15px 15px;
+	margin:0px 0px 15px 0px;
 }
