@@ -1329,7 +1329,6 @@ h4 a:hover{
 	color:#A8A83B;
 	text-decoration:underline;
 }
-#accordion div{
+.contfull div{
 	margin:0px 0px 15px 15px;
-	display:none;
 }
