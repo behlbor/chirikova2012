@@ -1322,10 +1322,10 @@ h4 a:hover{
 	width:930px;
 	padding:15px 30px 0px 30px;
 }
-#accordion h3 a{
+#accordion h3{
 	color:#A8A83B;
 }
-#accordion h3 a:hover{
+#accordion h3:hover{
 	color:#A8A83B;
 	text-decoration:underline;
 }
@@ -1339,4 +1339,7 @@ h4 a:hover{
 }
 #accordion li {
     margin-left: 15px;
+}
+#accordion div {
+    display: none;
 }
