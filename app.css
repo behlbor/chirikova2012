@@ -1308,3 +1308,13 @@ h4 a:hover{
 .contfull{
 	width:930px;
 }
+#accordion h3{
+	color:#A8A83B;
+}
+#accordion h3:hover{
+	color:#A8A83B;
+	text-decoration:underline;
+}
+#accordion div{
+	margin:0px 0px 15px 15px;
+}
