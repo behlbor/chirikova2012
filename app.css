@@ -1186,9 +1186,14 @@ label.error {
 .photo{
 	float:right;
 }
+#progr{
+	left:15px;
+	width:195px;
+	line-height:20px;
+}
 #bio{
-	float:left;
-	width:202px;
+	left:240px;
+	width:195px;
 	line-height:20px;
 }
 #zhenya{
