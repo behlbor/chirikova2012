@@ -1324,6 +1324,7 @@ h4 a:hover{
 }
 #accordion h3{
 	color:#A8A83B;
+	cursor: pointer;
 }
 #accordion h3:hover{
 	color:#A8A83B;
