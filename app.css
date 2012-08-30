@@ -1353,11 +1353,12 @@ h4 a:hover{
 .addthis_toolbox{
 	float:right;
 }
-.contUpUp{
-	background-color:#d6d7bb;
+.contUpUp {
+    background-color: #444444;
+    padding: 5px 0 5px 15px;
 }
-.contUpUp a{
-	color:#444444;
-	font-size:20px;
-	font-weight:normal;
+.contUpUp a {
+    color: #E2E4B8;
+    font-size: 16px;
+    font-weight: bold;
 }
