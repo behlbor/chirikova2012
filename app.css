@@ -62,11 +62,11 @@ body{
 }
 
 a {
-  color: #526066;
+  color: #A8A83B;
   text-decoration: none;
   }
 a:hover {
-  color: #204859;
+  text-decoration:underline;
   }
 a:focus {
   outline: thin dotted;
@@ -1355,4 +1355,8 @@ h4 a:hover{
 }
 .contUpUp{
 	background-color:#c7c8ac;
+}
+.contUpUp{
+	color:#444444;
+	font-size:20px;
 }
