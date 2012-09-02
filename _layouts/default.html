@@ -25,9 +25,9 @@
                 	<div id="slogan">Официальный сайт</div>
                 </div>
                 <div id="menu">
-                   <a href="/program.html">Программа</a>
-                    <a href="/bio.html">Биография</a>
-                   <a href="/allnews.html">Новости</a>
+                   <a href="/program.html" class="menu{% if page.menup %}-active{% endif %}">Программа</a>
+                    <a href="/bio.html" class="menu{% if page.menub %}-active{% endif %}">Биография</a>
+                   <a href="/allnews.html" class="menu{% if page.menun %}-active{% endif %}">Новости</a>
                 </div>
           </div>
           {{content}}
