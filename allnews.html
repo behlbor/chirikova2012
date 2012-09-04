@@ -7,7 +7,7 @@ menun: tut
 <div style="clear:both;"></div>
 <div class="cont contnews">
 	<h1>Новости</h1>
-	 {% for item in site.categories.news limit:10 offset:0 %}
+	 {% for item in site.categories.news limit:30 offset:0 %}
       <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
       	<div class="teaser">
             <div class="date">
