@@ -15,7 +15,7 @@ categories:
 [ссылке](http://quittance.ru/form-pd4.php?nam=%CA%E0%ED%E4%E8%E4%E0%F2+%D7%E8%F0%E8%EA%EE%E2%E0+%C5.%D1.+%F1%F7%E5%F2+No.+40810810940440000237&inn=7707083893&kpp=504702001&sch=30301810940006004044&bnk=%D1%E1%E5%F0%E1%E0%ED%EA+%D0%EE%F1%F1%E8%E8+%E3.%CC%EE%F1%EA%E2%E0+%D5%E8%EC%EA%E8%ED%F1%EA%EE%E5+%CE%D1%C1+No.+7825%2F001&bik=044525225&ksc=30101810400000000225&plt=%CF%EE%E6%E5%F0%F2%E2%EE%E2%E0%ED%E8%E5+%EE%F2+%E3%F0+%D0%D4+%EF%E0%F1%EF.+1234+123456%2C+07.10.1952%2C+%E3.+%CC%EE%F1%EA%E2%E0%2C+%F3%EB.+%D2%E2%E5%F0%F1%EA%E0%FF%2C+%E4.+13%2C+%EA%E2.+183&fio=%C8%E2%E0%ED%EE%E2+%C8%E2%E0%ED+%C8%E2%E0%ED%EE%E2%E8%F7&adr=%E3.+%CC%EE%F1%EA%E2%E0%2C+%F3%EB.+%D2%E2%E5%F0%F1%EA%E0%FF%2C+%E4.+13%2C+%EA%E2.+183)
  Вы можете воспользоваться удобным сервисом для дозаполнения квитанции, в которой уже внесено все необходимое, или просто распечатать квитанцию:
  
-<a href="/images/quit_fiz.jpg" target="_blank">![квитанция](/images/quit_fiz.jpg)</a>
+<a href="/images/quit_fiz.jpg" target="_blank"><img src="/images/quit_fiz.jpg" alt="квитанция" /></a>
  
 ####Физическое лицо не может внести пожертвование в размере  более, чем 2000 рублей!
 
@@ -32,7 +32,7 @@ categories:
 ##Образец заполнения платёжного поручения для юридических лиц
 По этой [ссылке](http://quittance.ru/form-0401060.php?type=1&subj=%C4%3A+23.02.2007.+%C4%EE%E1%F0%EE%E2%EE%EB%FC%ED%EE%E5+%EF%EE%E6%E5%F0%F2%E2%EE%E2%E0%ED%E8%E5+%E2+%E8%E7%E1%E8%F0%E0%F2%E5%EB%FC%ED%FB%E9+%F4%EE%ED%E4+%EA%E0%ED%E4%E8%E4%E0%F2%E0+%D7%E8%F0%E8%EA%EE%E2%EE%E9+%C5.%D1.+%CE%E3%F0%E0%ED%E8%F7%E5%ED%E8%E9%2C+%EF%F0%E5%E4%F3%F1%EC%EE%F2%F0%E5%ED%ED%FB%F5+%F7.+6+%E8+%F7.+6.1.+%F1%F2.+47+%C7%E0%EA%EE%ED%E0+%CC%EE%F1%EA%EE%E2%F1%EA%EE%E9+%EE%E1%EB%E0%F1%F2%E8+%AB%CE+%EC%F3%ED%E8%F6%E8%EF%E0%EB%FC%ED%FB%F5+%E2%FB%E1%EE%F0%E0%F5+%E2+%CC%EE%F1%EA%EE%E2%F1%EA%EE%E9+%EE%E1%EB%E0%F1%F2%E8%BB%2C+%ED%E5%F2&r_name=%CA%E0%ED%E4%E8%E4%E0%F2+%D7%E8%F0%E8%EA%EE%E2%E0+%C5.%D1.+%F1%F7%E5%F2+No.+40810810940440000237&r_inn=7707083893&r_kpp=504702001&r_acc=30301810940006004044&r_bank=%D1%E1%E5%F0%E1%E0%ED%EA+%D0%EE%F1%F1%E8%E8+%E3.%CC%EE%F1%EA%E2%E0+%D5%E8%EC%EA%E8%ED%F1%EA%EE%E5+%CE%D1%C1+No.+7825%2F001&r_bik=044525225&r_kor=30101810400000000225&order=6&kdig=1) Вы можете воспользоваться удобным сервисом для дозаполнения квитанции уже для юрлиц, в которой уже внесено все необходимое, или просто распечатать квитанцию:
 
-<a href="/images/quit_yur.jpg" target="_blank">![квитанция](/images/quit_yur.jpg)</a>
+<a href="/images/quit_yur.jpg" target="_blank"><img src="/images/quit_yur.jpg" alt="квитанция" /></a>
 
 ####Памятка юридическим лицам
 
