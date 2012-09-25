@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Новости"
+menun: tut
+---
+
+<div style="clear:both;"></div>
+<div class="cont contnews">
+	<h1>Новости</h1>
+	 {% for item in site.categories.news limit:30 offset:0 %}
+      <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
+      	<div class="teaser">
+            <div class="date">
+                {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
+            </div>
+            <div class="newstitle">
+                {{item.title}}
+            </div>
+            <div class="descr">
+              {{item.descr}}
+            </div>
+        </div>
+      </a>
+    {% endfor %}
+</div>
+<div class="cont noMargin tw">
+<h2>Чирикова в сети</h2>
+<div id="soc">
+	<a href="https://twitter.com/4irikova" target="_blank"><img src="/images/twitter.png" alt="twitter"></a>
+	<a href="http://jenya-khimles.livejournal.com/" target="_blank"><img src="/images/livejournal.png" alt="livejournal"></a>
+	<a href="http://www.facebook.com/4irikova" target="_blank"><img src="/images/facebook.png" alt="facebook"></a>
+    <a href="http://vk.com/chirikova_khimki" target="_blank"><img src="/images/vkontakte.png" alt="vkontakte"></a>
+</div>
+<h4>Twitter-лента по хэштегу <a href="https://twitter.com/#!/search/realtime/%23chirikova2012" target="_blank">#chirikova2012</a>:</h4>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#chirikova2012',
+  interval: 30000,
+  title: '',
+  width: 420,
+  height: 180,
+  theme: {
+    shell: {
+      background: '#E2E4B8',
+      color: '#444444'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#B7BD34'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script></div>
+<div style="clear:both;"></div>
