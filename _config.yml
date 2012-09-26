@@ -19,7 +19,6 @@ prose:
       title: Your Post Title
       descr: Short summary of your news
       time: Local time, e.g. 18:30
-	  tag: none
       categories:
       - news
     _posts/video: |
