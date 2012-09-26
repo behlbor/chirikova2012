@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Новости"
-menun: tut
+menua: tut
 ---
 
 <div style="clear:both;"></div>
 <div class="cont contnews">
-	<h1>Новости</h1>
+	<h1>Агитация</h1>
 	 {% for item in site.categories.news limit:30 offset:0 %}
      	{% if item.tag contains 'agit' %}
               <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
