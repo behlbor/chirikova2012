@@ -10,14 +10,6 @@ exclude:
 - .gitignore
 - README.md
 
-markdown: rdiscount
-pygments: true
-lsi: true
-exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
-production: false
-//add this line to add pagination
-paginate: 10 //the number of post per page
-
 prose:
   rooturl: "_posts"
   metadata:
