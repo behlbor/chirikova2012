@@ -23,6 +23,26 @@ menun: tut
 </div>
 <div class="cont contnews noMargin">
 	<a href="/allnews.html">
+    {% if page.tag contains 'agit' %}
+    <h2>Агитация</h2>
+	 {% for item in site.categories.news limit:30 offset:0 %}
+     	{% if item.tag contains 'agit' %}
+              <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
+                <div class="teaser">
+                    <div class="date">
+                        {{ item.date | date: "%d.%m.%Y" }} | {{item.time}}
+                    </div>
+                    <div class="newstitle">
+                        {{item.title}}
+                    </div>
+                    <div class="descr">
+                      {{item.descr}}
+                    </div>
+                </div>
+              </a>
+        {% endif %}
+    {% endfor %}
+    {% else %}
     <h2>Новости</h2></a>
 	 {% for item in site.categories.news limit:30 offset:0 %}
       <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
@@ -39,5 +59,6 @@ menun: tut
         </div>
       </a>
     {% endfor %}
+    {% endif %}
 </div>
 <div style="clear:both;"></div>
