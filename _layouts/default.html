@@ -27,7 +27,7 @@
                 <div id="menu">
                    <a href="/program.html" class="menu{% if page.menup %}-active{% endif %}">Программа</a>
                     <a href="/bio.html" class="menu{% if page.menub %}-active{% endif %}">Биография</a>
-                   <a href="/allnews.html" class="menu{% if page.menun %}-active{% endif %}">Новости</a>
+                   <a href="/allnews.html" class="menu{% if page.menun %}{% if page.tag contains 'agit' %}{% else %}-active{% endif %}{% endif %}">Новости</a>
                    <a href="/competition.html" class="menu{% if page.menuk %}-active{% endif %}">Конкурс</a>
                    <a href="/allagit.html" class="menu{% if page.menun and page.tag contains 'agit' %}-active{% endif %}">Агитация</a>
                 </div>
