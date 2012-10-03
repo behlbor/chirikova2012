@@ -22,11 +22,10 @@ menun: tut
 <!-- AddThis Button END -->
 </div>
 <div class="cont contnews noMargin">
-
 	<a href="/allnews.html">
     {% if page.tag contains 'agit' %}
     <h2>Агитация</h2>
-	 {% for item in site.categories.news limit:300 offset:0 %}
+	 {% for item in site.categories.news limit:30 offset:0 %}
      	{% if item.tag contains 'agit' %}
               <a class="newsteaser" href="{{site.root_dir}}{{item.url}}">
                 <div class="teaser">
