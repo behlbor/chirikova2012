@@ -26,13 +26,13 @@ layout: default
 </div>
 
 <div class="cont tw">
-	<h2>Наша трансляция с выборов<a href="https://twitter.com/#!/search/realtime/%23chirikova2012" target="_blank">#chirikova2012</a>:</h2>
+	<h2><a href="https://twitter.com/#!/search/realtime/%23chirikova2012" target="_blank"><u>Трансляция с выборов</a></u></h2>
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
   version: 2,
   type: 'person',
-  search: '4irikova',
+  search: '#Khimki2012',
   interval: 30000,
   title: '',
   width: 420,
@@ -58,22 +58,36 @@ new TWTR.Widget({
 </script>
 </div>
 <div class="cont noMargin tw">
-	<a href="/photo.html"><h2>Фотогалерея</h2></a>
-    <div id="galleria"></div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="js/galleria/galleria-1.2.8.min.js"></script>
-    <script src="js/galleria/plugins/picasa/galleria.picasa.min.js"></script>
-    <script>
-
-    // Initialize Galleria
-   // Load the classic theme
-    Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
-
-    Galleria.run('#galleria', {
-        // The user & album. This example fetches the album "Demo" from the user "galleriajs"
-        picasa: 'useralbum:110587909775190743590/5780953116293161745'
-    });
-    </script>
+	<h2>Twitter-лента по хэштегу <a href="https://twitter.com/#!/search/realtime/%23chirikova2012" target="_blank"><u>#chirikova2012</u></a></h2>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#Химки2012',
+  interval: 30000,
+  title: '',
+  width: 420,
+  height: 380,
+  theme: {
+    shell: {
+      background: '#E2E4B8',
+      color: '#444444'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#B7BD34'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
 </div>
 
 <div class="cont contnews contDown">
