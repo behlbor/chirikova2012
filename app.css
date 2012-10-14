@@ -1368,3 +1368,6 @@ h4 a:hover{
 #menu .menu-active{
 	text-decoration:underline;
 }
+.twtr-hd a, .twtr-hd h3, .twtr-hd h4{
+	display:none;
+}
