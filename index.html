@@ -24,6 +24,72 @@ layout: default
 	<a href="/video.html"><h2>Видеоканал</h2></a>
 	<iframe width="420" height="360" src="http://www.youtube.com/embed/?list=PL8Bt1phW2cJ-u4mM9WfNIuT4tefc119U1&hl=ru_RU" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<div class="cont tw">
+	<h2><a href="https://twitter.com/Khimki2012" target="_blank"><u>Трансляция с выборов</a></u></h2>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'person',
+  search: 'Khimki2012',
+  interval: 30000,
+  title: '',
+  width: 420,
+  height: 380,
+  theme: {
+    shell: {
+      background: '#E2E4B8',
+      color: '#444444'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#B7BD34'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+</div>
+<div class="cont noMargin tw">
+	<h2>Twitter-лента по хэштегу <a href="https://twitter.com/search/realtime?q=%23%D0%A5%D0%B8%D0%BC%D0%BA%D0%B82012&src=hash" target="_blank"><u>#Химки2012</u></a></h2>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#Химки2012',
+  interval: 30000,
+  title: '',
+  width: 420,
+  height: 380,
+  theme: {
+    shell: {
+      background: '#E2E4B8',
+      color: '#444444'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#B7BD34'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+</div>
+
 <div class="cont contnews contDown">
 	<a href="/allnews.html"><h2>Новости</h2></a>
 	 {% for item in site.categories.news limit:10 offset:0 %}
@@ -60,7 +126,7 @@ layout: default
     });
     </script>
 </div>
-<div class="cont noMargin tw">
+<div class="cont noMargin ">
 <h2>Чирикова в сети</h2>
 <div id="soc">
 	<a href="https://twitter.com/4irikova" target="_blank"><img src="/images/twitter.png" alt="twitter"></a>
@@ -69,7 +135,6 @@ layout: default
     <a href="http://vk.com/chirikova_khimki" target="_blank"><img src="/images/vkontakte.png" alt="vkontakte"></a>
 </div>
 <h4>Twitter-лента по хэштегу <a href="https://twitter.com/#!/search/realtime/%23chirikova2012" target="_blank">#chirikova2012</a>:</h4>
-<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
   version: 2,
